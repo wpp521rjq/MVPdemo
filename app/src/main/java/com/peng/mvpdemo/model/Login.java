@@ -27,6 +27,7 @@ public class Login implements ILogin{
                     loginModel.setUsername(username);
                     loginModel.setPassword(password);
                     listener.onLoginSuccess(loginModel);
+
                 }else{
                     listener.onFailed();
                 }
